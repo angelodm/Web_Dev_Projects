@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>WebSite of Angelo DM</title>
+        <link rel="stylesheet" href="style-6.css">
+    </head>
+    <body>
+        <h1>Angelo DM - My WebSite</h1>
+        
+        <div class="image-div">
+            <img src="/Users/Angelo/Desktop/Job Seek/CV/Angelo Di Marco - zoom - 20190411.JPG" width="300" height="300" id="image">
+        </div>
+        
+        <p>Hello! Hello! This is my webpage! Click on the button <em>beside</em> just for <strong>FUN</strong> :)</p>
+        <button onclick="changeImage()"><strong>Click Me!!!!</strong></button>
+        <br>
+        
+        <p>Find beside the links to my GitHub and LinkedIn:</p>
+        <a href="https://github.com/angelodm">My GitHub</a>
+        <a href="https://www.linkedin.com/in/angelo-di-marco-ph-d-56014342/">My LinkedIn</a>
+
+        <div class="home-div">
+            <a href="/Users/Angelo/Web Development/my_website/index.html">Homepage</a>
+            <a href="/Users/Angelo/Web Development/my_website/index.html">Homepage</a>
+            <a href="/Users/Angelo/Web Development/my_website/index.html">Homepage</a>
+            <a href="/Users/Angelo/Web Development/my_website/index.html">Homepage</a>
+            <a href="/Users/Angelo/Web Development/my_website/index.html">Homepage</a>
+        </div>
+
+        
+        <hr style="border: solid blue 2px;">
+        
+        <div class="title-div" style="height: 500px;">
+            <h2>Function 1: create your list!</h2>
+        </div>
+        <!-- ================================================== -->
+        <div class="function-div" style="height: 500px;">
+            <p>Create Your List:</p>
+            
+            <input type="text" id="input-item" placeholder="Insert List Item">
+            <br>
+            <button onclick="getItem()">Add Item</button>
+            <button onclick="eraseList()">Erase List!</button>
+            <br>
+            <ul id="lista" style="text-align: left; margin: 40px 30px 10px 30px;"></ul>
+        </div>
+        
+        <hr style="border: solid blue 2px;">
+        
+    <!-- ================================================================================================== -->
+    <!-- ================================================================================================== -->
+
+
+    <script>
+        var counter = 1;
+        var lista = document.getElementById("lista");
+
+        function getItem() {  
+            let itemValue = document.getElementById("input-item").value;
+            let newItem = document.createElement("li");  
+            newItem.id = 'item-' + counter;
+            newItem.innerHTML = 'item-' + counter + ' -->>>-- ' + itemValue;
+            counter++;
+            lista.appendChild(newItem);
+        }
+
+
+        function eraseList() {
+            for (let index = 1; index < counter; index++) {
+                let actualItem = document.getElementById('item-' + index);
+                lista.removeChild(actualItem);
+            }
+            counter = 1;
+        }
+        
+
+
+        var deg = 20;
+
+        function changeImage() {
+            document.getElementById("image").style.transform = 'rotate('+deg+'deg)';
+            document.getElementById("image").style.filter = 'brightness('+70+'%) contrast('+40+'%) saturate('+100+'%)';
+            document.getElementById("image").style.border = 'violet solid '+10+'px';
+            deg += 20;
+            
+            if (deg === 380) {
+                document.getElementById("image").style.padding = '30px';
+                document.getElementById("image").style.background = 'linear-gradient(-45deg, blueViolet, red, orange)';
+            }
+        }
+    </script>
+
+           
+    </body>
+</html>

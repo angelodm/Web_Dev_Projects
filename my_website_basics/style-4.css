@@ -1,0 +1,149 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: lightseagreen;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    border: solid 3px black;
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+h3 {
+    background-color: purple;
+    color: snow;
+    width: 300px;
+    height: 100px;
+    border: solid 5px blue;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 30px 0 30px 30px;
+    display: inline-block;
+
+}
+
+a {
+    color: darkmagenta;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.grey-element {
+    background-color: lightseagreen;
+    font-size: 20px;
+}
+
+
+button {
+    font-size: 25px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 0 0 100px;
+}
+
+#input1, #input2 {
+    border: 3px solid red;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+.positioning {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.strongPos {
+    position: relative;
+    top: 30px;
+}
+
+
+.container {
+    border: black solid 4px;
+    height: 200px;
+    width: 800px;
+    display: flex;
+}
+
+.item {
+    border: brown solid 4px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.container-2 {
+    border: black solid 4px;
+    border-radius: 30px;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+}
+
+.item-2 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.container-3 {
+    border: blue solid 4px;
+    border-radius: 30px;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-3 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.container-4 {
+    border: red solid 4px;
+    border-radius: 30px;
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item-4 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.container-5 {
+    border: greenyellow solid 4px;
+    border-radius: 30px;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.item-5 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}

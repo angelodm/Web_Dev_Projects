@@ -1,0 +1,90 @@
+body {
+    width: 50%;
+    margin: 40px auto;
+    background-color: lightpink;
+    font-size: 25px;
+    border: black solid 5px;
+    border-radius: 50px;
+    padding: 20px 60px 20px 60px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+img {
+    border: red solid 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.image-div {
+    text-align: center;
+}
+
+.home-div {
+    text-align: center;
+    border: seagreen solid 4px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 30px 0 30px 0;
+}
+
+a {
+    color: darkmagenta;
+    font-size: 40px;
+    font-style: italic;
+    padding: 20px;
+}
+
+button {
+    font-size: 25px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 0 0 30px;
+}
+
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+}
+
+
+.title-div {
+    display: inline-block;
+    border: snow solid 2px;
+    border-radius: 30px;
+    margin: 20px 0 0 0;
+    width: 45%;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.function-div {
+    display: inline-block;
+    border: snow solid 2px;
+    border-radius: 30px;
+    margin: 20px 0 0 20px;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+}
+
+
+input {
+    font-size: 25px;
+    border: blue solid 3px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 12px;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(160, 240, 128);
+    padding: 50px 50px 50px 200px;
+}
+
+h3 {
+    background-color: lightpink;
+    color: darkgreen;
+    width: 800px;
+    height: 100px;
+    border: solid 5px blue;
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 500px;
+
+}
+
+a {
+    color: darkmagenta;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.grey-element {
+    background-color: lightseagreen;
+    font-size: 20px;
+}
+
+
+button {
+    font-size: 25px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 0 0 100px;
+}
