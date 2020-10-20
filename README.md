@@ -1,2 +1,2 @@
-# Web_Dev_Projects
-My projects about web development: HTML, CSS and JavaScript
+# Web Devevelopment Projects
+My projects about web development: playing/training with HTML, CSS and JavaScript.
